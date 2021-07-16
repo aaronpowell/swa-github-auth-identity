@@ -23,9 +23,9 @@ const httpTrigger: AzureFunction = async function (
   headers.append("user-agent", "azure-functions");
   headers.append(
     "authorization",
-    `Basic ${Buffer.from(`aaronpowell:${process.env.GitHubToken}`).toString(
-      "base64"
-    )}`
+    `Basic ${Buffer.from(
+      `${process.env.GitHubUsername}:${process.env.GitHubToken}`
+    ).toString("base64")}`
   );
   const res = await fetch(
     `https://api.github.com/users/${userInfo.userDetails}`,
