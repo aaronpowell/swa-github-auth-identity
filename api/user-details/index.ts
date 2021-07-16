@@ -1,5 +1,5 @@
 import { AzureFunction, Context, HttpRequest } from "@azure/functions";
-import fetch, { Headers } from "undici-fetch";
+import fetch, { Headers } from "node-fetch";
 import {
   getUserInfo,
   isAuthenticated,
