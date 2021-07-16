@@ -1,0 +1,12 @@
+{
+  "auth": {
+    "identityProviders": {
+      "azureActiveDirectory": {
+        "enabled": false
+      },
+      "twitter": {
+        "enabled": false
+      }
+    }
+  }
+}
