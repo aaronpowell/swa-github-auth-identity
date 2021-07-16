@@ -1,4 +1,10 @@
-# Azure Static Website React Template
+# Static Web Apps GitHub Identity Sample
+
+This repository contains a sample application showing how you can create your own user profile using the GitHub API from within Static Web Apps.
+
+Learn more [on my blog](https://www.aaron-powell.com/posts/2021-07-16-adding-user-profiles-to-swa/) and [check out the deployed app](https://victorious-moss-09e734410.azurestaticapps.net/).
+
+## Azure Static Website React Template
 
 This repository contains a template for creating an [Azure Static Web App](https://docs.microsoft.com/azure/static-web-apps/?WT.mc_id=javascript-0000-aapowell) projects using React + TypeScript.
 
