@@ -1,4 +1,5 @@
 import {
+  Logout,
   StaticWebAuthLogins,
   useClientPrincipal,
 } from "@aaronpowell/react-static-web-apps-auth";
@@ -40,6 +41,9 @@ function User() {
           <a href={`https://twitter.com/${githubUser.twitter_username}`}>
             Twitter
           </a>
+        </li>
+        <li>
+          <Logout />
         </li>
       </ul>
     </div>
