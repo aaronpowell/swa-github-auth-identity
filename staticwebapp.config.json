@@ -8,5 +8,13 @@
         "enabled": false
       }
     }
-  }
+  },
+  "routes": [
+    {
+      "route": "/api/*",
+      "allowedRoles": [
+        "authenticated"
+      ]
+    }
+  ]
 }
